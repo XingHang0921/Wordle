@@ -76,6 +76,7 @@ class MainActivity : AppCompatActivity()
                     .show()
                 Toast.makeText(it.context, "Game Over!", Toast.LENGTH_SHORT).show()
                 button.visibility = View.INVISIBLE
+                answer.visibility = View.VISIBLE
             }
         }
     }
